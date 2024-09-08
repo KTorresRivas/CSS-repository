@@ -13,7 +13,8 @@ body{
 }
 
 .portada{
-    width: 1600px;
+    width: 800px;
+    padding: 3em 0px 3em 3em;
 }
 
 #principal1{
@@ -26,18 +27,28 @@ body{
     color: rgb(139, 74, 0)
 }
 
+#principal3{
+    font-size: 50px;
+    color: rgb(215, 197, 0)
+}
+
 h1{
 font-size: 90px;
 color: rgb(98, 32, 32);
 }
 
-h2{
-    font-size: 60px;
-    color: rgb(84, 160, 46);
+#titulos{
+    width: 50vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2{
-    background-color: rgb(255, 255, 255);
+    font-size: 60px;
+    color: rgb(84, 160, 46);
 }
 
 .secundario{
@@ -52,6 +63,46 @@ h3{
 
 .terciario{
     font-size: 40px;
-    color: navajowhite;
+    color: rgb(192, 157, 104);
 }
 
+h4{
+    font-size: 60px;
+    color: rgb(255, 198, 65);
+}
+
+.cuarto{
+    font-size: 40px;
+    color: rgb(219, 153, 21);
+}
+
+
+.cards{
+    border: 6px solid rgb(95, 115, 7);
+    width: fit-content;
+    padding: 2em 2em 2em 2em;
+    border-radius: 15%;
+    transition: 2s;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color:rgb(238, 238, 196);
+}
+
+#cards-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 1,5em;
+    border: 2px solid rgb(244, 246, 204);
+    border-radius: 5%;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
